@@ -1,13 +1,10 @@
 ﻿// Задача 62: Заполните спирально массив 4 на 4.
 Console.Clear();
-Console.WriteLine("Заполнение спирально массива 4 на 4 числами от 1 до 16");
-
 int n = 4; // Количество строк, столбцов массива n x n
 int number = 1; // первый элемент массива
+Console.WriteLine($"Заполнение спирально массива {n} на {n} числами от 1 до {n * n}");
 
 Print2(SpiralArray(n, number));
-
-//Console.WriteLine("\n"); Console.ReadKey();
 
 int[,] SpiralArray(int n, int number)
 {
